@@ -1,0 +1,28 @@
+Python -Django Commands 
+
+python --version
+
+pip --version
+
+django-admin --version
+
+pip install virtualenvwrapper-win
+
+mkvirtualenv myproject
+
+workon myproject
+
+pip install Django
+
+django-admin startproject HelloWorld
+
+python manage.py startapp Hello
+
+python manage.py migrate 
+
+python manage.py runserver
+
+
+---
+python create user
+python manage.py createsuperuser
